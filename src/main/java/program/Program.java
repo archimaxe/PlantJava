@@ -1,3 +1,5 @@
+package program;
+
 import model.Plant;
 
 public class Program {
@@ -11,6 +13,6 @@ public class Program {
         System.out.println(tulip);
 
 
-
+        flower.evalPrice(100);
     }
 }

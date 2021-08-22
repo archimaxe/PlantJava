@@ -8,8 +8,6 @@ public class Plant {
     private double price;
     private Object object = new Size();  // так? Сделать в качестве поля Plant объект класса Size
 
-
-
     public Plant() {
     }
 
@@ -30,12 +28,10 @@ public class Plant {
         this.price = price;
     }
 
-
     // Метод увеличения поля (любого) растения на заданную величину в аргументах
-    public static int change(Object object, double newPrice){
-        int changeSize = 0;
-
-        return changeSize;
+    public double evalPrice(double value){
+        this.price += value;
+        return this.price;
     }
 
     public String getName() {
